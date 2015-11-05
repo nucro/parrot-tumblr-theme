@@ -1,0 +1,576 @@
+.clear {
+    clear:both
+}
+
+iframe {
+    width:100%
+}
+
+h1,h2,h3,h4,h5 {
+    font-family:'Montserrat',sans-serif
+}
+
+body {
+    background:#f5f5f5
+}
+
+header {
+    max-width:960px;
+    margin:50px auto 0;
+    transition:.5s;
+    padding:20px;
+    text-align:center
+}
+
+.sideMenu li.active a {
+    color:#fff!important
+}
+
+header h1 {
+    font-weight:700;
+    font-size:46px;
+    margin:auto;
+    display:block;
+    color:#000
+}
+
+header h2 {
+    display:block;
+    color:#888
+}
+
+.nav-wrapper {
+    box-shadow:0!important
+}
+
+main {
+    max-width:700px;
+    margin:35px auto 0;
+    transition:.5s
+}
+
+article > h3 {
+    font-weight:700;
+    font-size:32px;
+    margin-bottom:15px;
+    display:inline-block
+}
+
+article {
+    margin-bottom:50px;
+    background:#fff;
+    padding:40px
+}
+
+article>p, article>ul , article>ol {
+    line-height: 30px;
+    font-size: 17px;
+    font-weight:400;
+    margin-top:10px;
+    text-align:justify
+}
+
+article img {
+    max-width:100%
+}
+
+ {
+}
+
+ {
+    font-size:16px
+}
+
+.postInfo a i {
+    color:#000;
+    background:#eceff1;
+    display: inline;
+    border-radius:50%
+;
+    font-size: 12px;
+    vertical-align: middle;
+    padding: 5px;
+}
+
+.postInfo a:hover {
+    color:#37474F
+}
+
+footer {
+    font-size:12px;
+    color:gray;
+    height:35px;
+    transition:.5s;
+    position:absolute;
+    bottom:20px
+}
+
+footer:hover {
+    opacity:1
+}
+
+footer i {
+    color:red
+}
+
+.navbar {
+    margin-top:30px;
+    font-family:'Montserrat',sans-serif
+}
+
+.navbar ul li {
+    list-style:none;
+    display:inline-block
+}
+
+.navbar ul li a {
+    padding:10px;
+    color:#263238;
+    background:#eceff1
+}
+
+header h1 img {
+    border-radius:50%;
+    margin:auto;
+    display:block;
+    width:80px
+}
+
+.postTypeChat strong {
+    font-weight:700;
+    margin-right:10px;
+    font-size:14px
+}
+
+.postTypeChat li {
+    font-family:Monospace
+}
+
+.postTypeChat .chatline {
+    line-height:30px
+;
+    font-size: 12px;
+}
+
+.postTypeChat strong:after {
+    content:':'
+}
+
+.postTypePhoto img {
+    display:block;
+    margin:25px auto
+}
+
+.postTypeLink h3 > a > i {
+    font-size:20px;
+    vertical-align:text-top
+}
+
+a.typeLink:hover {
+    opacity:1
+}
+
+a.typeLink {
+    transition:.3s;
+    opacity:.6;
+    color:#263238
+}
+
+.sidebar {
+    height:100%;
+    background:#eceff1;
+    top:0;
+    left:-300px;
+    position:fixed;
+    z-index:5000;
+    overflow-y:auto;
+    overflow-x:hidden;
+    transition:ease .5s;
+    width:300px;
+    padding:15px;
+    color:#000
+}
+
+.contentCover {
+    height:100%;
+    width:100%;
+    position:fixed;
+    z-index:997;
+    transition:.4s;
+    background:rgba(0,0,0,0);
+    pointer-events:none;
+    left:0;
+    top:0
+}
+
+#openSidebar {
+    position:fixed;
+    left:0;
+    top:0;
+    margin:10px 0 0 10px;
+    color:#000;
+    z-index:999
+}
+
+.links ul {
+    padding-left:10px
+}
+
+.links li {
+    margin-bottom:10px
+}
+
+.sidebar a:hover {
+    color:#000
+}
+
+.sidebar a {
+    color:rgba(0,0,0,0.6)
+}
+
+.items {
+    color:teal;
+    display:block;
+    margin-bottom:10px;
+    transition:.5s;
+    opacity:.7
+}
+
+.items:hover {
+    opacity:1;
+    padding-left:10px
+}
+
+.links h3,.myFlickr h3 {
+    color:#000;
+    font-size:23px;
+    font-weight:300
+}
+
+.postTags a {
+    color:#263238;
+    font-family:"Roboto",sans-serif
+}
+
+.postTags li {
+    display:inline-block;
+    background:#eceff1;
+    padding:5px;
+    border-radius:3px;
+    opacity:.3;
+    transition:.7s;
+    line-height:12px;
+    margin-bottom:5px
+}
+
+.postTags li:hover {
+    opacity:1
+}
+
+.postTags {
+    margin-top:25px;
+    font-size:12px
+}
+
+.rotate {
+    transform:rotate(360deg)!important;
+    transition:1s
+}
+
+.loadMore i {
+    display:inline-block;
+    transition:1s
+}
+
+.sidebarToggle {
+    left:0
+}
+
+.coverToggle {
+    background:url(http://static.tumblr.com/wi5nlnk/qHAnkjbla/contenfiller.png);
+    pointer-events:all;
+    transition:.5s
+}
+
+.date:hover {
+    opacity:1;
+    cursor:pointer
+}
+
+.headCard {
+    left:0;
+    top:0;
+    height:145px;
+    position:absolute;
+    width:100%;
+    color:#fff;
+    padding-top:10px;
+    z-index:7;
+    pointer-events:none
+}
+
+.headCard img {
+    position:absolute;
+    border-radius:50%;
+    margin-left:15px;
+    margin-top:20px
+}
+
+.headCard .blogName {
+    position:absolute;
+    margin-top:50px;
+    margin-left:120px;
+    font-size:21px
+}
+
+.headCard .descriptionSidebar {
+    margin-left:120px;
+    margin-top:75px;
+    position:absolute;
+    font-size:13px
+}
+
+.sideMenu {
+    margin-top:130px;
+    /* position:absolute; */
+    width:300px;
+    /* left:0
+ */
+    margin-left: -15px;
+}
+
+.sideMenu li {
+    left:0;
+    position:relative;
+    display:block;
+    width:100%;
+    padding:14px
+}
+
+.sideMenu li a {
+    color:#000
+}
+
+.sideMenu i {
+    width:20px
+}
+
+.hr {
+    border-bottom:1px solid rgba(0,0,0,0.2);
+    height:1px;
+    width:100%;
+    display:block;
+    margin-top: 0;
+    position:absolute;
+    left:0
+}
+
+.sideMenu li.active {
+    background:#dc143c;
+    color:#fff
+}
+
+.sideMenu li:hover {
+    opacity:.7
+}
+
+footer div {
+    line-height:23px
+}
+
+.search {
+    width:100%;
+    position:fixed;
+    left:0;
+    top:-55px;
+    z-index:1000;
+    transition:.5s
+}
+
+.search input {
+    background:#fff;
+    border:0;
+    width:720px;
+    margin:auto;
+    display:block;
+    padding:5px 20px;
+    height:45px;
+    z-index:1001
+}
+
+.date {
+    font-size:12px;
+    opacity:.5;
+    color:#000;
+    font-weight:400
+}
+
+.otherLinks {
+    margin-top: 15px;
+    position:absolute;
+    width:300px;
+    left:0;
+    padding-left:15px;
+    font-size:13px;
+    font-weight:700
+}
+
+.otherLinks ul li {
+    line-height:24px
+}
+
+.sidebar::-webkit-scrollbar {
+    width:0!important
+}
+
+.closeSidebar {
+    position:absolute;
+    left:250px;
+    background:#fff;
+    border-radius:50%;
+    width:35px;
+    height:35px;
+    text-align:center;
+    font-size:15px;
+    top:8px;
+    display:block;
+    padding-top:10px;
+    z-index:6;
+    cursor:pointer;
+    pointer-events:all
+}
+
+.closeSidebar i {
+    color:#000
+}
+
+article.postTypeQuote > h3:before {
+    content:'"';
+    opacity:.5
+}
+
+article.postTypeQuote > h3:after {
+    content:'"';
+    opacity:.5
+}
+
+article.postTypeQuote h3 {
+    font-variant:small-caps
+}
+
+.caption {
+line-height: 45px;
+font-size: 12px;
+opacity: 0.5;
+}
+
+article h3 a {
+    color:#000
+}
+
+.logo {
+    display:inline-block
+}
+
+.like_button {
+    width:18px
+}
+
+.pagination {
+    margin-bottom: 40px;
+    float: right;
+}
+.pagination a {
+display: inline-block;
+width: 25px;
+height: 25px;
+color: grey;
+font-size: 21px;
+}
+.date {
+float: right;
+font-weight: bold;
+}
+article > ol > li ,Ã‚Â article > ul > li {
+    font-size: 20px;
+    line-height: 35px;
+    margin-bottom: 15px;
+}
+
+article ol ,Ã‚Â article ul {
+    padding-left: 25px;
+    margin: 30px 0;
+}
+a.asker {
+    font-size: 18px;
+    color: grey;
+}
+
+a.asker:after {
+    content: ':';
+}
+.postTypeChat .odd .label {
+    color: black;
+    font-weight: bold;
+}
+
+.postTypeChat .label {
+    font-family: 'Roboto' sans-serif;
+    font-size: 12px;
+}
+
+.postTypeChat .even .label {
+    font-weight: bold;
+    color: grey;
+}
+article>blockquote {
+    padding: 20px;
+    font-style: italic;
+}
+.postTypeLink .description {
+    line-height: 30px;
+}
+ol.notes {
+    font-size: 14px;
+    list-style: none;
+    margin-bottom: 40px;
+    padding-left: 40px;
+}
+
+ol.notes li {}
+
+ol.notes li {
+    line-height: 25px;
+}
+
+ol.notes li span.action {
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+ol.notes img {
+    border-radius: 50%;
+    vertical-align: middle;
+}
+ol.notes a {
+    color:black;
+    font-weight:bold;
+}
+a.tumblr_blog {
+    font-weight: bold;
+    font-size: 14px;
+}
+article>ul, article>ol {
+    padding-left: 20px;
+}
+
+article>ul>li {
+    list-style-type: square;
+}
+
+article>ol>li {
+    list-style-type: lower-greek;
+}
+.postTypeChat li {
+list-style-type: none;
+}
